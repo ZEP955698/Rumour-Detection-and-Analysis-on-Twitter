@@ -1,0 +1,11 @@
+tweepy
+tqdm
+json
+pyyaml
+transformers
+pytorch-lightning
+pytorch
+torchmetrics
+torch
+wandb
+scikit-learn

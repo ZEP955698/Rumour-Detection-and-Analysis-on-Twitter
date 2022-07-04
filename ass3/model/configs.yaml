@@ -1,0 +1,16 @@
+model:
+  seed: 90042
+  name: "cardiffnlp/twitter-roberta-base-mar2022"
+  max_length: 512
+  train_batch_size: 16
+  num_labels: 2
+  warmup_ratio: 0.1
+  learning_rate: 1e-3
+  weight_decay: 1e-3
+  adam_epsilon: 1e-8
+  precision: 16
+  max_epochs: 10
+  log_every_n_steps: 10
+device:
+  avail_gpu: 1
+  num_workers: 24
